@@ -1,10 +1,10 @@
 ---
 geometry: margin=0.75in
 fontfamily: helvet
-fontfamilyoptions: sfdefault
 colorlinks: true
 urlcolor: NavyBlue
 header-includes:
+  - \renewcommand{\familydefault}{\sfdefault}
   - \usepackage{titlesec}
   - \titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
 ---
