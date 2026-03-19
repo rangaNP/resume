@@ -6,7 +6,7 @@ urlcolor: NavyBlue
 header-includes:
   - \renewcommand{\familydefault}{\sfdefault}
   - \usepackage{titlesec}
-  - \titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
+  - \titleformat{\section}{\Large\bfseries\raggedright}{}{0pt}{}[\vspace{1mm}\titlerule]
 ---
 
 # Ranga Nirmal Priyadarshana
