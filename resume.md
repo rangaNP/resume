@@ -12,7 +12,7 @@
 
 ## Personal Statement
 
-A highly motivated Computer Science and Engineering undergraduate at the University of Moratuwa with a strong interest in software engineering, web development, and core computer science concepts.
+CSE undergraduate at the University of Moratuwa with a focus on software engineering, web development and core computer science concepts. Passionate about writing clean, maintainable code and optimizing system performance.
 
 ## Education
 
@@ -30,7 +30,7 @@ _Royal College, Colombo 07_ | 2019
 - Results: 9 'A' Passes
 
 **Grade 5 Scholarship Examination**
-_Siddhartha Primary School_ | 2013
+_Siddhartha Primary School, Dompe_ | 2013
 
 - Results: 190/200
 
