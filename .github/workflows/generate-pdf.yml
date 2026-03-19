@@ -1,6 +1,5 @@
 name: Generate and Release Resume
 
-# triggers when push a tag starting with 'v'
 on:
   push:
     tags:
@@ -10,7 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    # Required permission to allow GitHub Actions to create a Release
     permissions:
       contents: write 
 
@@ -18,15 +16,16 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Install Pandoc and TeX
+    # Updated to install xetex and the Fira fonts
+    - name: Install Pandoc, TeX, and Fonts
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+        sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra fonts-firasans fonts-firacode
 
+    # Updated to use the xelatex engine for custom font support
     - name: Convert Markdown to PDF
-      run: pandoc resume.md -o resume.pdf
+      run: pandoc resume.md -o resume.pdf --pdf-engine=xelatex
 
-    # Creates the Release and attaches the PDF
     - name: Create Release and Upload Asset
       uses: softprops/action-gh-release@v2
       with:

@@ -1,3 +1,11 @@
+---
+geometry: margin=0.75in
+mainfont: Fira Sans
+sansfont: Fira Sans
+colorlinks: true
+urlcolor: NavyBlue
+---
+
 # Ranga Nirmal Priyadarshana
 
 rangap.23@cse.mrt.ac.lk | +94 76 493 8927 | [Portfolio](https://ranganp.github.io/rnp/) | Colombo, Sri Lanka
