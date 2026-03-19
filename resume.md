@@ -88,4 +88,4 @@ _Swisstek Aluminium Limited_ | 2023 – 2024
 ## Affiliations
 
 - Member of IEEE Student Branch (May 2025 – Present)
-- Member of OREPA (2024 – Present)
+- Member of OREPA (2023 – Present)
