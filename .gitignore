@@ -1,0 +1,18 @@
+# macOS metadata
+.DS_Store
+
+# Generated PDF artifact
+resume.pdf
+
+# Pandoc / LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+
+# Local debug artifacts
+pandoc.log

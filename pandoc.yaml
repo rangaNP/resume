@@ -1,0 +1,7 @@
+pdf-engine: pdflatex
+include-in-header:
+  - pandoc-header.tex
+variables:
+  geometry: margin=0.75in
+  colorlinks: true
+  urlcolor: NavyBlue

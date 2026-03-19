@@ -1,18 +1,14 @@
----
-geometry: margin=0.75in
-fontfamily: helvet
-colorlinks: true
-urlcolor: NavyBlue
-header-includes:
-  - \renewcommand{\familydefault}{\sfdefault}
-  - \usepackage{titlesec}
-  - \titleformat{\section}{\Large\bfseries\raggedright}{}{0pt}{}
-  - \titlespacing*{\section}{0pt}{1.2ex plus 0.2ex minus 0.2ex}{0.8ex}
----
-
 # Ranga Nirmal Priyadarshana
 
-rangap.23@cse.mrt.ac.lk | +94 76 493 8927 | [Portfolio](https://ranganp.github.io/rnp/) | Colombo, Sri Lanka
+\begin{center}
+\small
+\contacticon{\iconEmail} \href{mailto:rangap.23@cse.mrt.ac.lk}{rangap.23@cse.mrt.ac.lk}\contactsep
+\contacticon{\iconPhone} +94 76 493 8927\contactsep
+\contacticon{\iconWeb} \href{https://ranganp.github.io/rnp/}{Portfolio}\contactsep
+\contacticon{\iconGithub} \href{https://github.com/rangaNP}{GitHub}\contactsep
+\contacticon{\iconLinkedin} \href{https://www.linkedin.com/in/ranga-nirmal-984646276/}{LinkedIn}\contactsep
+\contacticon{\iconLocation} Colombo, Sri Lanka
+\end{center}
 
 ## Personal Statement
 
@@ -34,7 +30,7 @@ _Royal College, Colombo 07_ | 2019
 - Results: 9 'A' Passes
 
 **Grade 5 Scholarship Examination**
-_Siddhartha Primay School_ | 2013
+_Siddhartha Primary School_ | 2013
 
 - Results: 190/200
 
@@ -89,15 +85,14 @@ _Swisstek Aluminium Limited_ | 2023 – 2024
 - **AWS Academy Graduate:** Microservices and CI/CD Pipeline Builder
 - **AWS Academy Graduate:** Cloud Foundations
 
-## Leadership & Volunteering
+## Leadership & Activities
 
 - **Event Committee Member:** ADScAI (2026)
-- **Events Committee Member:** IEEE CIS Student Branch Chapter of UoM (2026/2027)
+- **Event Committee Member:** IEEE CIS Student Branch Chapter of UoM (2026/2027)
 - **Program Committee Member:** CSE Hit the Grounds (2025)
 - **Technical Committee Member:** CSE CyberCon (2026)
 - **Organizing Committee Member:** RoboGames 25.26 & CSE Careers Fair (2026)
 
 ## Affiliations
 
-- Member of IEEE Student Branch (May 2025 – Present)
 - Member of OREPA (2023 – Present)
