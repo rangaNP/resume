@@ -1,9 +1,14 @@
 ---
 geometry: margin=0.75in
-mainfont: Fira Code
+fontfamily: helvet
+fontfamilyoptions: sfdefault
 colorlinks: true
 urlcolor: NavyBlue
+header-includes:
+  - \usepackage{titlesec}
+  - \titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
 ---
+
 # Ranga Nirmal Priyadarshana
 
 rangap.23@cse.mrt.ac.lk | +94 76 493 8927 | [Portfolio](https://ranganp.github.io/rnp/) | Colombo, Sri Lanka

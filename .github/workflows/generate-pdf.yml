@@ -16,15 +16,14 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    # Installs XeTeX and the Fira Code system font
-    - name: Install Pandoc, TeX, and Fonts
+    - name: Install Pandoc and TeX
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra fonts-firacode
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
 
-    # Uses xelatex to properly render the OpenType Fira Code font
+    # Reverted to the standard, stable pdflatex engine
     - name: Convert Markdown to PDF
-      run: pandoc resume.md -o resume.pdf --pdf-engine=xelatex
+      run: pandoc resume.md -o resume.pdf
 
     - name: Create Release and Upload Asset
       uses: softprops/action-gh-release@v2
