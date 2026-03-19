@@ -1,7 +1,6 @@
 ---
 geometry: margin=0.75in
-fontfamily: FiraSans
-fontfamilyoptions: sfdefault
+mainfont: Fira Code
 colorlinks: true
 urlcolor: NavyBlue
 ---
