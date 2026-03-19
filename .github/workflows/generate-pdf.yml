@@ -1,0 +1,36 @@
+name: Generate and Release Resume
+
+# triggers when push a tag starting with 'v'
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # Required permission to allow GitHub Actions to create a Release
+    permissions:
+      contents: write 
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Install Pandoc and TeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+
+    - name: Convert Markdown to PDF
+      run: pandoc resume.md -o resume.pdf
+
+    # Creates the Release and attaches the PDF
+    - name: Create Release and Upload Asset
+      uses: softprops/action-gh-release@v2
+      with:
+        files: resume.pdf
+        name: Resume Version ${{ github.ref_name }}
+        draft: false
+        prerelease: false
