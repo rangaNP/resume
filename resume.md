@@ -54,19 +54,19 @@ _Siddhartha Primary School_ | 2013
 
 ## Projects
 
-**DBMS Microbanking System** _(TypeScript)_
+**DBMS Microbanking System** | [GitHub](https://github.com/microbanking-system/DBMS_Microbanking_System)
 
 - Developed a full‑stack university project modeling a comprehensive micro‑banking system.
 
-**Blueberry VS Code Theme**
+**Blueberry VS Code Theme** | [GitHub](https://github.com/rangaNP/blueberry)
 
 - Designed and published a sleek syntax highlighting theme with cool blue tones, optimized for a calm, focused developer experience.
 
-**Pixelflip** _(JavaScript)_
+**Pixelflip** | [GitHub](https://github.com/rangaNP/pixelflip)
 
 - Implemented a powerful, browser-based, all-in-one image converter tool.
 
-**4-Bit Nanoprocessor Design** _(VHDL)_
+**4-Bit Nanoprocessor Design** | [GitHub](https://github.com/rangaNP/nanoprocessor-design)
 
 - Designed a 4-bit Nanoprocessor utilizing VHDL and successfully implemented it using Xilinx Vivado.
 
