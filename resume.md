@@ -85,7 +85,7 @@ _Swisstek Aluminium Limited_ | 2023 – 2024
 - **AWS Academy Graduate:** Microservices and CI/CD Pipeline Builder
 - **AWS Academy Graduate:** Cloud Foundations
 
-## Leadership & Activities
+## Extracurricular Activities
 
 - **Event Committee Member:** ADScAI (2026)
 - **Event Committee Member:** IEEE CIS Student Branch Chapter of UoM (2026/2027)
